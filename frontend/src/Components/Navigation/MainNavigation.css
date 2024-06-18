@@ -1,0 +1,42 @@
+.main-nav{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 3.5rem;
+    background:#01d1d1;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo h1{
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.nav-items{
+    margin-left: 1.5rem ;
+}
+.nav-items ul{
+    display: flex;
+    margin: 0 0 0 1.5rem;
+    padding: 0;
+    list-style:none;
+}
+
+.nav-items li{
+    margin: 0 1rem;
+}
+
+.nav-items a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.nav-items a:hover,
+.nav-items a:active,
+.nav-items a.active
+{
+    color: black;
+}
